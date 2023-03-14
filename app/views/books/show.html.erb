@@ -1,6 +1,8 @@
-<div>
-  <% flash[:notice] %>
-</div>
+<% if flash[:notice] %>
+  <div class="flash">
+    <%= flash[:notice] %>
+  </div>
+<% end %>
 
 <div>
   <p><strong>Title:</strong><%= @book.title %></p>
