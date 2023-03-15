@@ -31,7 +31,7 @@ p {
 }
 
 a {
-  color: pink;
+  color: #ff69b4;
 }
 
 .index-title {
@@ -99,4 +99,17 @@ h5 {
 li {
   margin-left: 40px;
   color: red;
+}
+
+.error-masage-index {
+  margin-left: 20px;
+}
+
+.error-masage-edit {
+  margin-left: 20px;
+}
+
+.flash {
+  margin: 20px;
+  color: #00bfff;
 }
